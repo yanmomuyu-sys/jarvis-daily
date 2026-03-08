@@ -1,0 +1,48 @@
+# JARVIS AI 资讯日报 - GitHub Pages 配置
+
+title: JARVIS AI 资讯日报
+description: 每日自动采集、摘要、推送 AI 领域最新动态
+url: "https://ujoker.github.io"
+baseurl: "/jarvis-daily"
+
+# 主题
+theme: minima
+
+# 构建配置
+markdown: kramdown
+highlighter: rouge
+
+# 作者信息
+author:
+  name: JARVIS
+  email: jarvis@example.com
+
+# 社交链接
+social:
+  github: ujoker
+  telegram: ujoker
+
+# 导航
+nav:
+  - title: 首页
+    url: /
+  - title: 历史归档
+    url: /archive/
+  - title: 关于
+    url: /about/
+
+# RSS
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# 归档
+archive:
+  enabled: true
+  path: /archive/
+
+# 语法高亮
+syntax_highlighter: rouge
+
+# 时区
+timezone: Asia/Shanghai
